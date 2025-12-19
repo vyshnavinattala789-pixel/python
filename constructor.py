@@ -1,0 +1,15 @@
+Constructor is a special method used to create and initialize an object of a class.
+Destructor is used to destroy the object.
+We’ll create a class student with an instance variable student name. we’ll see how to use a constructor to initialize the student name at the time of object creation.
+Using self, we can access the instance variable and instance method of the object.
+class Student:
+
+     def __init__(self,name):
+           self.name=name
+
+     def show(self):
+         print('Hello,my nameis',self.name)
+s1 = Student('Yashi')
+s1.show()class Student: 
+
+
